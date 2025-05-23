@@ -42,7 +42,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "rustc --version",
-    "postCreateCommand": "sudo apt update && sudo apt install nodejs npm -y"
+    "postCreateCommand": "sudo apt update && sudo apt install nodejs npm -y && .devcontainer/install-gh-cli.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
