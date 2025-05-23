@@ -3,7 +3,7 @@
 
 # Install prerequisites
 sudo apt-get update
-sudo apt-get install -y curl
+sudo apt-get install -y curl nodejs npm 
 
 # Add GitHub CLI repository and install
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
